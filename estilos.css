@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-image: url(fondo1.jpg);
+    color: white;
+}
+
+.enlace_menu{
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(13, 239, 255);
+    padding: 1rem;
+    width: 20vmin;
+    height: 5vmin;
+    text-decoration: none;
+    color: rgb(0, 68, 255);
+}
+
+
+/* aplicar al archivo "administrar.php"  */
+
+/*Realizar una tabla responsive es una forma*/
+
+.table-container{
+    overflow-y: auto;
+}
+
+.table{
+    width: 100%;
+    empty-cells: hide; /* no funciona si esta el border-collapse */
+}
+
+.table_head{
+    text-align: center;
+    border:1px solid black;
+    border-spacing: 10px;
+}
+
+.table, .table_data{
+    border:1px solid black;
+    border-spacing: 10px;
+}
+
+.table_data{
+    background-color: cornflowerblue;
+}
+
+.btn_acciones{
+    margin-right: 1rem;
+    text-align: center;
+}   
+
+h3 {
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+}
+h1 {
+    color: white;
+}
